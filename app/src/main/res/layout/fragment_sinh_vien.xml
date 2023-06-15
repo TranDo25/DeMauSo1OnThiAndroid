@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SinhVienFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="60dp"
+
+        android:id="@+id/recyclerview_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonAddSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:src="@drawable/baseline_exposure_plus_1_24" />
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_sinhVienNam2TenNam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên Nam học năm 2" />
+
+    <Button
+        android:layout_marginLeft="220dp"
+        android:id="@+id/btn_dsSVNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách sinh viên" />
+</FrameLayout>
